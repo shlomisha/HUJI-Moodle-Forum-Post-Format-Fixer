@@ -10,6 +10,8 @@
 // @include        http://moodle.cs.huji.ac.il/cs*/mod/forumng/view.php?*
 // @include        http://moodle.huji.ac.il/hu*/mod/forum/discuss.php?*
 // @run-at         document-end
+// @updateURL      https://raw.githubusercontent.com/shlomisha/HUJI-Moodle-Forum-Post-Format-Fixer/master/HUJI_Moodle_Forum_Post_Format_Fixer.meta.js
+// @downloadURL    https://raw.githubusercontent.com/shlomisha/HUJI-Moodle-Forum-Post-Format-Fixer/master/HUJI_Moodle_Forum_Post_Format_Fixer.user.js
 // ==/UserScript==
 
 if (document.location.href.indexOf("forumng/view.php") >= 0)
